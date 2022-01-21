@@ -1,3 +1,4 @@
+from module_two import bye
 
 
 def hello(name: str) -> str:
@@ -9,4 +10,7 @@ def hello(name: str) -> str:
     """
     return f'hello {name}!'
 
-hello('Sam')
+
+name1 = 'Sam'
+hello(name1)
+bye(name1)
